@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background: linear-gradient(
+    225.5deg,
+    rgb(247, 204, 0) 20.5%,
+    rgb(247, 0, 0) 50.8%,
+    rgb(161, 0, 156) 85.5%
+  );
+  overflow-x: hidden;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.App {
+  position: relative;
+  text-align: center;
+}
+
+.spinner {
+  height: 80px;
+  margin: auto;
+}
+
+.App-intro {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  margin-top: 14rem;
+}
+
+.errorMessage {
+  margin: auto;
+  font-weight: bold;
+  color: rgb(244, 239, 239);
+}
+
+.movies {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-weight: 900;
+}

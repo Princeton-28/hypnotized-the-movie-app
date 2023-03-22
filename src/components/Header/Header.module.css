@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  letter-spacing: 0.1rem;
+  padding: 20px 0 0 0;
+  background-color: #0055ff;
+  color: whitesmoke;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+header h2 {
+  margin: 0;
+}
+
+header h3 {
+  margin: 0.7rem;
+}
