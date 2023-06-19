@@ -27,10 +27,10 @@
 .search > input[type="submit"] {
   position: absolute;
   top: 10.5rem;
+  width: 90px;
   background-color: tomato;
   color: black;
   padding: 5px;
-  width: 90px;
   margin-left: 10px;
   font-size: 0.7rem;
   letter-spacing: 0.1rem;

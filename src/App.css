@@ -15,7 +15,7 @@ body {
 }
 
 .App {
-  position: relative;
+  /* position: relative; */
   text-align: center;
 }
 
@@ -25,6 +25,7 @@ body {
 }
 
 .App-intro {
+  position: relative;
   font-size: 1.5rem;
   font-weight: 800;
   letter-spacing: 0.1rem;
