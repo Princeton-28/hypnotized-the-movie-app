@@ -16,7 +16,7 @@
   font-weight: bolder;
   border-radius: 5px;
   border: navy;
-  box-shadow: 6px 8px 10px blue;
+  box-shadow: 6px 8px 10px blue !important;
 }
 
 .search > input[type="text"]:focus {
@@ -25,7 +25,7 @@
 }
 
 .search > input[type="submit"] {
-  position: relative;
+  position: relative !important;
   top: 10.5rem;
   width: 90px;
   background-color: tomato;
