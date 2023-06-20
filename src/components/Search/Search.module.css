@@ -25,7 +25,7 @@
 }
 
 .search > input[type="submit"] {
-  position: absolute;
+  position: relative;
   top: 10.5rem;
   width: 90px;
   background-color: tomato;

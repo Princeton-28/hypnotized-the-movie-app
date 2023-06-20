@@ -15,7 +15,8 @@ body {
 }
 
 .App {
-  /* position: relative; */
+  /* position: absolute; */
+  position: relative;
   text-align: center;
 }
 
