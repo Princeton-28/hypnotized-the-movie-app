@@ -16,7 +16,9 @@
   font-weight: bolder;
   border-radius: 5px;
   border: navy;
-  box-shadow: 6px 8px 10px blue !important;
+  -webkit-appearance: none;
+  -webkit-box-shadow: 6px 8px 10px #0000ff !important;
+  box-shadow: 6px 8px 10px #0000ff !important;
 }
 
 .search > input[type="text"]:focus {
@@ -37,7 +39,9 @@
   font-weight: 600;
   border-radius: 5px;
   border: navy;
-  box-shadow: 6px 6px 10px blue;
+  -webkit-appearance: none;
+  -webkit-box-shadow: 6px 6px 10px #0000ff !important;
+  box-shadow: 6px 6px 10px #0000ff !important;
   cursor: pointer;
 }
 

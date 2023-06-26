@@ -72,9 +72,7 @@ function App() {
           ))
         )}
       </div>
-      <Footer
-        text={"This Movie App is created by Prince Amanie, aka Princeton-28"}
-      />
+      <Footer text={"\u00a9 2023 Princeton28 - Hypnotized The Movie App"} />
     </div>
   );
 }

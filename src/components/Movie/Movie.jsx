@@ -14,7 +14,8 @@ export default function Movie({ movie }) {
     <div className={styles.movie}>
       <h2>{movie.Title}</h2>
       <div>
-        <img className={styles.poster}
+        <img
+          className={styles.poster}
           width="200"
           alt={`The movie titled: ${movie.Title}`}
           src={poster}

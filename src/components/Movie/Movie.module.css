@@ -5,4 +5,7 @@
 
 .poster {
   border-radius: 25px;
+  -webkit-appearance: none;
+  -webkit-box-shadow: 6px 8px 10px #0000ff !important;
+  box-shadow: 6px 8px 10px #0000ff !important;
 }
