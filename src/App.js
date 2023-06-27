@@ -72,7 +72,9 @@ function App() {
           ))
         )}
       </div>
-      <Footer text={"\u00a9 2023 Princeton28 - Hypnotized The Movie App"} />
+      <Footer
+        text={"\u00a9 2023 Princeton28 - Hypnotized \u00bb The Movie App"}
+      />
     </div>
   );
 }
