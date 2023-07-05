@@ -34,7 +34,7 @@
 
 .copyright {
   font-size: 0.9rem;
-  margin-top: 0.1rem;
+  margin-top: 0.2rem;
 }
 
 .linkedin,
@@ -59,14 +59,11 @@
 @media only screen and (min-width: 600px) {
   .logos_socialmedia {
     flex-flow: row nowrap;
-    margin-left: -.8rem;
+    margin-left: -0.8rem;
   }
 
   .footer_text_container {
-    /* justify-content: space-between; */
-    /* flex-flow: row nowrap; */
     min-width: 530px;
-  /* border: 1px solid black; */
   }
 }
 
