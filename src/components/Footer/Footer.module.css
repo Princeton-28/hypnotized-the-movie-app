@@ -1,5 +1,6 @@
-.footer {
-  text-align: right;
+.footer_container {
+  display: flex;
+  justify-content: space-between;
   font-size: large;
   letter-spacing: 0.1rem;
   font-weight: 600;
@@ -9,3 +10,71 @@
   padding: 2rem;
   width: 100vw;
 }
+
+.logos_socialmedia {
+  display: inline-flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  width: 100px;
+}
+
+.logos_brand {
+  display: inline-flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  width: 50px;
+}
+
+.footer_text_container {
+  display: inline-flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  min-width: 315px;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  margin-top: 0.1rem;
+}
+
+.linkedin,
+.github {
+  font-size: 1.3rem;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.linkedin:hover,
+.github:hover {
+  color: rgba(0, 0, 0, 0.995);
+}
+
+.studiovinari,
+.photovideo {
+  font-size: 1.3rem;
+}
+
+/* media queries start */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .logos_socialmedia {
+    flex-flow: row nowrap;
+    margin-left: -.8rem;
+  }
+
+  .footer_text_container {
+    /* justify-content: space-between; */
+    /* flex-flow: row nowrap; */
+    min-width: 530px;
+  /* border: 1px solid black; */
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .footer_text_container {
+    justify-content: space-evenly;
+    min-width: 550px;
+  }
+}
+/* media queries end */

@@ -35,7 +35,7 @@ body {
 .errorMessage {
   margin: auto;
   font-weight: bold;
-  color: rgb(244, 239, 239);
+  color: whitesmoke;
 }
 
 .movies {
