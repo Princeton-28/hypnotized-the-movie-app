@@ -57,7 +57,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header text="HYPNOTIZED" text2="The Movie App" />
+      <Header text_1="HYPNOTIZED" text_2="The Movie App" />
       <Search search={search} />
       <p className="App-intro">Sharing some of our favorite movies :</p>
       <div className="movies">
